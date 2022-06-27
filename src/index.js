@@ -33,7 +33,7 @@ function clearDom() {
 //adding image to header
 const headerDiv = document.querySelector('#h-text-image');
 const headerImage = document.createElement('img');
-headerImage.src = "/home/aristotleboi/repos/restaurant-page/src/ramen-logo.png";
+headerImage.src = "../src/images/ramen-logo.png";
 headerImage.alt = "a cute little picture of a bowl of ramen";
 headerImage.setAttribute('id', 'header-image')
 headerDiv.appendChild(headerImage)

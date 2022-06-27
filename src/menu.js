@@ -12,7 +12,7 @@ const createMenu = () => {
     ramen1.setAttribute('class', 'ramen-menu-item');
     const ramenImg1 = document.createElement('img')
     ramenImg1.setAttribute('class', 'ramen-image');
-    ramenImg1.src = '/home/aristotleboi/repos/restaurant-page/src/seafood.png';
+    ramenImg1.src = '../src/images/seafood.png';
     ramenImg1.alt = 'a cup of seafood ramen'
     const ramenInfo1 = document.createElement('div')
     ramenInfo1.setAttribute('class', 'menu-item-info')
@@ -41,7 +41,7 @@ const createMenu = () => {
     ramen2.setAttribute('class', 'ramen-menu-item');
     const ramenImg2 = document.createElement('img')
     ramenImg2.setAttribute('id', 'ramen-image2');
-    ramenImg2.src = '/home/aristotleboi/repos/restaurant-page/src/curry.png';
+    ramenImg2.src = '../src/images/curry.png';
     ramenImg2.alt = 'a cup of curry ramen'
     const ramenInfo2 = document.createElement('div')
     ramenInfo2.setAttribute('class', 'menu-item-info')
@@ -70,7 +70,7 @@ const createMenu = () => {
     ramen3.setAttribute('class', 'ramen-menu-item');
     const ramenImg3 = document.createElement('img')
     ramenImg3.setAttribute('id', 'ramen-image3');
-    ramenImg3.src = '/home/aristotleboi/repos/restaurant-page/src/kyushu.png';
+    ramenImg3.src = '../src/images/kyushu.png';
     ramenImg3.alt = 'a cup of kyushu white ramen';
     const ramenInfo3 = document.createElement('div')
     ramenInfo3.setAttribute('class', 'menu-item-info')
@@ -99,7 +99,7 @@ const createMenu = () => {
     ramen4.setAttribute('class', 'ramen-menu-item');
     const ramenImg4 = document.createElement('img')
     ramenImg4.setAttribute('id', 'ramen-image4');
-    ramenImg4.src = '/home/aristotleboi/repos/restaurant-page/src/mushroom.png';
+    ramenImg4.src = '../src/images/mushroom.png';
     ramenImg4.alt = 'a cup of mushroom flavoured ramen';
     const ramenInfo4 = document.createElement('div')
     ramenInfo4.setAttribute('class', 'menu-item-info')
