@@ -1,7 +1,9 @@
 import createContent from './home.js';
 import createMenu from './menu.js';
+import createContact from './contact.js'
 import './style.css'
 
+//code for tab buttons that cals function to switch
 const homeButton = document.querySelector('#home-button');
 homeButton.addEventListener('click', () => {
     clearDom();
@@ -14,6 +16,13 @@ menuButton.addEventListener('click', () => {
     createMenu()
 })
 
+const contactButton = document.querySelector('#contact-button');
+contactButton.addEventListener('click', () => {
+    clearDom();
+    createContact();
+})
+
+//function to clear dom before switching tabs
 function clearDom() {
     const content = document.querySelector('#content');
     while (content.firstChild) {
@@ -29,6 +38,7 @@ headerImage.alt = "a cute little picture of a bowl of ramen";
 headerImage.setAttribute('id', 'header-image')
 headerDiv.appendChild(headerImage)
 
+//initial page load
 createContent()
 
 
